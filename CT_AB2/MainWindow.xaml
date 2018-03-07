@@ -30,6 +30,6 @@
         </Grid.RowDefinitions>
         <UserControl BorderThickness="1px" BorderBrush="Black" Margin = "10px" Content="{Binding ViewModel1}" Grid.Row="0" Grid.Column="0"></UserControl>
         <UserControl BorderThickness="1px" BorderBrush="Black" Margin = "10px" Content="{Binding ViewModel2}" Grid.Row="0" Grid.Column="1"></UserControl>
-        <Button Margin="5px" Height="35px" Command="{Binding Vertauschen}" Grid.Row="1" Grid.Column="0">Vertauschen</Button>
+        <Button Margin="15px" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="150px" Height="35px" Command="{Binding Vertauschen}" Grid.Row="1" Grid.Column="0">Vertauschen</Button>
     </Grid>
 </Window>

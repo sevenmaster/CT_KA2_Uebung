@@ -11,6 +11,6 @@
             <RowDefinition Height="*"></RowDefinition>
             <RowDefinition Height="50px"></RowDefinition>
         </Grid.RowDefinitions>
-        <Button Width="50px" Height="30px" Grid.Row="1">B1</Button>
+        <Button Width="100px" Height="30px" Grid.Row="1">B1</Button>
     </Grid>
 </UserControl>
